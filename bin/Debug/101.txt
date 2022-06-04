@@ -1,0 +1,26 @@
+using System;
+using System.Collections;
+using System.Xml;
+using System.IO;
+using System.Windows.Forms;
+
+namespace WirelessNodeSimulation
+{
+	public class TestClass : WirelessNodeSimulation.Command
+	{
+		public TestClass()
+		{
+		}
+
+		public void Execute() 
+		{ 
+                 int a=5;
+                 int b=6;
+                 if(b>a)
+                 {
+
+			MessageBox.Show("second is highest");
+                  }
+		}
+	}
+}

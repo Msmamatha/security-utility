@@ -1,0 +1,20 @@
+using System;
+using System.Collections;
+using System.Xml;
+using System.IO;
+using System.Windows.Forms;
+
+namespace WirelessNodeSimulation
+{
+	public class TestClass : WirelessNodeSimulation.Command
+	{
+		public TestClass()
+		{
+		}
+
+		public void Execute() 
+		{
+			MessageBox.Show("This is a testmessage");
+		}
+	}
+}
